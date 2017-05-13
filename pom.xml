@@ -15,10 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.3.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<thymeleaf.version>3.0.2.RELEASE</thymeleaf.version>
-
 
 
 	<properties>
@@ -41,6 +38,7 @@
 					<artifactId>thymeleaf-layout-dialect</artifactId>
 				</exclusion>
 			</exclusions>
+            <version>3.0.2.RELEASE</version>
 		</dependency>
 
 		<dependency>
